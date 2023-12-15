@@ -23,9 +23,8 @@ public class HomeScripts : MonoBehaviour
     AudioSource musicSource, soundSource;
 
 
-    void Start()
+    public void Start()
     {
-
         if (CommonScript.instance.music)
         {
 
@@ -81,6 +80,9 @@ public class HomeScripts : MonoBehaviour
             CommonScript.instance.sound = true;
         }
     }
+
+       
+    
 
    
     public void MusicManagement()

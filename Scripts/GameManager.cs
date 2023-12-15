@@ -41,7 +41,9 @@ public class GameManager : MonoBehaviour
     Image LoadingSlider;
     float speed = 0.2f;
     bool TimeLineController;
-   
+
+  
+
     // Start For Music Method
     void Start()
     {      

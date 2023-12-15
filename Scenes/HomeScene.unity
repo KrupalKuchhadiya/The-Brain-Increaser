@@ -67,9 +67,6 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 0
@@ -182,8 +179,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: You Want To Exit?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: bb4ddf90142c3af42bf82f4d08d6850b, type: 2}
-  m_sharedMaterial: {fileID: 5343826474006761412, guid: bb4ddf90142c3af42bf82f4d08d6850b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -207,7 +204,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 139.25
+  m_fontSize: 100.75
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -283,9 +280,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 151255126}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c716bebe7c40c14698bf998d055d812, type: 3}
+  m_Script: {fileID: 11500000, guid: 8f287a71457357940a77c588191e4f05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  music: 0
+  sound: 0
 --- !u!4 &151255128
 Transform:
   m_ObjectHideFlags: 0
@@ -494,7 +493,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4158a59c9a9570b4e93ed5cb9c808499, type: 3}
+  m_Sprite: {fileID: -2614270113051161491, guid: 55654190714ff144e9233fad450347f0, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -514,7 +513,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 --- !u!95 &154314814
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -522,12 +521,13 @@ Animator:
   m_GameObject: {fileID: 154314809}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 23ba6ac17cba6b545a48c5972304028e, type: 2}
+  m_Controller: {fileID: 9100000, guid: 8390038aca3b5d842b8571213bacbff3, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -696,7 +696,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ffdcf2c0cbed96449bf0163d1294a752, type: 3}
+  m_Sprite: {fileID: -5018129467461229731, guid: 9a1aabc6623dd1c49a945fd534f64335, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -716,7 +716,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 --- !u!95 &188236207
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -724,12 +724,13 @@ Animator:
   m_GameObject: {fileID: 188236203}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: cbaab6caee6dac844addea9d5ce75569, type: 2}
+  m_Controller: {fileID: 9100000, guid: 92c9b625fe91d7044ac1f01a78373f7e, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -797,7 +798,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 479b1d0d7a640424c9389270a3036457, type: 3}
+  m_Sprite: {fileID: -8483731395159641348, guid: 8132490d86d5d9c4381b5c043223223d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -930,7 +931,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4158a59c9a9570b4e93ed5cb9c808499, type: 3}
+  m_Sprite: {fileID: -2614270113051161491, guid: 55654190714ff144e9233fad450347f0, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -950,7 +951,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 --- !u!95 &359360748
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -958,12 +959,13 @@ Animator:
   m_GameObject: {fileID: 359360743}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f649d12bca3222742b88cb0cbaf1abad, type: 2}
+  m_Controller: {fileID: 9100000, guid: 25e83759067148f4e97791610741b6b9, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -1026,7 +1028,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ffdcf2c0cbed96449bf0163d1294a752, type: 3}
+  m_Sprite: {fileID: -5018129467461229731, guid: 9a1aabc6623dd1c49a945fd534f64335, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1251,7 +1253,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0b9dd14a43c28554c9a10b0c2f8d40ce, type: 3}
+  m_Sprite: {fileID: 1890049669404315415, guid: 6ca2b4ab4f4e32a4ebd39261393385d7, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1330,8 +1332,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: bb4ddf90142c3af42bf82f4d08d6850b, type: 2}
-  m_sharedMaterial: {fileID: 5343826474006761412, guid: bb4ddf90142c3af42bf82f4d08d6850b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1355,7 +1357,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 108.8
+  m_fontSize: 97.9
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1540,7 +1542,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 387aacf1f3ad6ba4d860d7b166e12bfa, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 88e35714d648e4140b5548470561694d, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1560,7 +1562,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 --- !u!95 &1010268436
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1568,12 +1570,13 @@ Animator:
   m_GameObject: {fileID: 1010268432}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: bf6283b6944b8e84f9b4282aa5ba6ec2, type: 2}
+  m_Controller: {fileID: 9100000, guid: e9381a6f37c56a3448c0da6ce4cfcb5d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -1636,7 +1639,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 387aacf1f3ad6ba4d860d7b166e12bfa, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 88e35714d648e4140b5548470561694d, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1712,7 +1715,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 74743a2b6ff0cce419fc4b650560c6de, type: 3}
+  m_Sprite: {fileID: -1203628926491255257, guid: e61d738c5ab52754e86135af369445f8, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1757,7 +1760,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: f34492d7b65268c43a2801d8c12806d8, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 19aed34d304668948a68d211693e3ada, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1973,7 +1976,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a3cfbd800d5e1274996f314f42918724, type: 3}
+  m_Sprite: {fileID: -3772881536087483805, guid: 8eec35afc55e4db4b9aaf5b15aa46b31, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1993,7 +1996,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 --- !u!95 &1325363204
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2001,12 +2004,13 @@ Animator:
   m_GameObject: {fileID: 1325363199}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: cfa6d50210b3b24418f5e0219561501a, type: 2}
+  m_Controller: {fileID: 9100000, guid: 79c55663874ad4f4ba6c6963c592a74b, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -2038,7 +2042,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1390655652}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d63a16a01931f64dbd0a6798f3bbc2c, type: 3}
+  m_Script: {fileID: 11500000, guid: df5d25c45724c384ba2301f45e880bcf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   HomePanel: {fileID: 1676000529}
@@ -2046,13 +2050,13 @@ MonoBehaviour:
   ExitPanel: {fileID: 776054914}
   SettingPanel: {fileID: 350674157}
   LoadingSlider: {fileID: 1782542135}
-  Speed: 0.5
+  Speed: 0.2
   MusicBtn: {fileID: 1976257309}
   SoundBtn: {fileID: 1530423633}
-  musicON: {fileID: 21300000, guid: 127814429faad9c4cbfd5241faccc953, type: 3}
-  musicOFF: {fileID: 21300000, guid: 467d471bbc6a84b4ca4f59fbde1b0821, type: 3}
-  soundON: {fileID: 21300000, guid: b3366b3ba0e8be545b46d380865c96bb, type: 3}
-  soundOFF: {fileID: 21300000, guid: b688f47fb1f2d0b4d8db3560c24dafea, type: 3}
+  musicON: {fileID: -2079153411887947747, guid: 936e2dc58b6e4ec459f61f0b38579f1c, type: 3}
+  musicOFF: {fileID: -7436059540446521961, guid: ca5457b043a277449b45beb0a06514b3, type: 3}
+  soundON: {fileID: 21300000, guid: 2043211677a068b4296b943dbd9f2fd7, type: 3}
+  soundOFF: {fileID: 5660104166885646579, guid: 445c2b58cb9cfa646a306dca3d8bc67c, type: 3}
   musicSource: {fileID: 1229046469}
   soundSource: {fileID: 1896591096}
 --- !u!4 &1390655654
@@ -2185,7 +2189,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 512dbe9c2d77a794e84a6121f06491ca, type: 3}
+  m_Sprite: {fileID: 4730000969188304387, guid: 8b44172dfdc98624e8227564c69bc815, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -2205,7 +2209,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 --- !u!95 &1475874652
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2213,12 +2217,13 @@ Animator:
   m_GameObject: {fileID: 1475874647}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: cd0aa1c239a0c104ea6193cc38e9869c, type: 2}
+  m_Controller: {fileID: 9100000, guid: 7b795ab448256ad43bba53d3ca19be82, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -2283,8 +2288,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: YES
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: bb4ddf90142c3af42bf82f4d08d6850b, type: 2}
-  m_sharedMaterial: {fileID: 5343826474006761412, guid: bb4ddf90142c3af42bf82f4d08d6850b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2308,7 +2313,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 108.8
+  m_fontSize: 74.3
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2473,7 +2478,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b3366b3ba0e8be545b46d380865c96bb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2043211677a068b4296b943dbd9f2fd7, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -2493,7 +2498,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 --- !u!95 &1530423636
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2501,12 +2506,13 @@ Animator:
   m_GameObject: {fileID: 1530423631}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b1345e4fdf6ec7242a1a39bc9be47c88, type: 2}
+  m_Controller: {fileID: 9100000, guid: cbc1b1b7e1d522a4bb86803e03f6308e, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -2570,7 +2576,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ffdcf2c0cbed96449bf0163d1294a752, type: 3}
+  m_Sprite: {fileID: -5018129467461229731, guid: 9a1aabc6623dd1c49a945fd534f64335, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -2590,7 +2596,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 --- !u!95 &1670568903
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2598,12 +2604,13 @@ Animator:
   m_GameObject: {fileID: 1670568899}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4e066d95434a6c6438df88c6ee1e4726, type: 2}
+  m_Controller: {fileID: 9100000, guid: de735c5a70c529b438dcf7bb5f380645, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -2814,7 +2821,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1bdcde80a102c1d4fbc655554cc3a04b, type: 3}
+  m_Sprite: {fileID: -6697611871874874913, guid: 58dc8664c54c1e3498cf8da18c6bfaf1, type: 3}
   m_Type: 3
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -2947,7 +2954,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0b9dd14a43c28554c9a10b0c2f8d40ce, type: 3}
+  m_Sprite: {fileID: 1890049669404315415, guid: 6ca2b4ab4f4e32a4ebd39261393385d7, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -2992,7 +2999,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 6aa8eb928b4dd7447a49bbaf171c1def, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 993d79063ec109f4f9499ab4ec943841, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -3151,7 +3158,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ffdcf2c0cbed96449bf0163d1294a752, type: 3}
+  m_Sprite: {fileID: -5018129467461229731, guid: 9a1aabc6623dd1c49a945fd534f64335, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -3171,7 +3178,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 --- !u!95 &1918173733
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3179,12 +3186,13 @@ Animator:
   m_GameObject: {fileID: 1918173729}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3ccd567e7f0565947b191e208f5bd5a6, type: 2}
+  m_Controller: {fileID: 9100000, guid: 938b9bbd011e7c845a9ff8c176e43d5b, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -3251,7 +3259,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 915294535dad21642baffc154be83d90, type: 3}
+  m_Sprite: {fileID: -2167391603273126674, guid: b4afba9572a86404a8b1e7933f4316ee, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -3271,7 +3279,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 --- !u!95 &1950047451
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3279,12 +3287,13 @@ Animator:
   m_GameObject: {fileID: 1950047447}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f188e1f9a72cb8a4eba9a53e68126cca, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1d45824196a5ed147840dfbff513a8df, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -3405,7 +3414,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 127814429faad9c4cbfd5241faccc953, type: 3}
+  m_Sprite: {fileID: -2079153411887947747, guid: 936e2dc58b6e4ec459f61f0b38579f1c, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -3425,7 +3434,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 --- !u!95 &1976257312
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3433,12 +3442,13 @@ Animator:
   m_GameObject: {fileID: 1976257307}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 20953cb1c74789544bba708b78ab7212, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0a57c18bf7db0014ca148f07776c1d20, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -3502,7 +3512,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 387aacf1f3ad6ba4d860d7b166e12bfa, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 88e35714d648e4140b5548470561694d, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -3522,7 +3532,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 --- !u!95 &2138953593
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3530,12 +3540,13 @@ Animator:
   m_GameObject: {fileID: 2138953589}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8f60a659442faa04cb3b32216149e1a7, type: 2}
+  m_Controller: {fileID: 9100000, guid: f98f90afbbea35b4bb8efab387058247, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
