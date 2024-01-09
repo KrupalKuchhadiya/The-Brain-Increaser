@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bg_splash_0: -5731204483873536500
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

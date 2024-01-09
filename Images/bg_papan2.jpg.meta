@@ -140,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bg_papan2_0: -2167391603273126674
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
