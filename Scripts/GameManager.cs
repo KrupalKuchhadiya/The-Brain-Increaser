@@ -103,7 +103,7 @@ public class GameManager : MonoBehaviour
             }
         }
     }
-    //Basic Sound Play On Click Method
+    //Basic Sound Play On Click Method 
     public void SoundonClick()
     {
         soundSource.Play();
