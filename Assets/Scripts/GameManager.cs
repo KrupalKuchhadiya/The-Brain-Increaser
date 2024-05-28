@@ -355,6 +355,7 @@ public class GameManager : MonoBehaviour
             WrongAnswerPanel.SetActive(true);
             PlayPanel.SetActive(false);
             TimeLineController = false;
+            Interstitial.instance.ShowInterstitialAd();
         }
     }
     #endregion
